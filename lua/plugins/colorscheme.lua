@@ -23,4 +23,22 @@ return {
     "tomasr/molokai",
     lazy = false,
   },
+
+  --Gruvbox colorscheme
+  {
+    "morhetz/gruvbox",
+    lazy = false,
+  },
+
+  --Moonbow colorscheme
+  {
+    "arturgoms/moonbow.nvim",
+    lazy = false,
+  },
+
+  --Ayudark colorscheme
+  {
+    "Shatur/neovim-ayu",
+    lazy = false,
+  },
 }

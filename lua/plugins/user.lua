@@ -12,4 +12,10 @@ return {
     lazy = false,
   },
 
+  --Transparency plugin
+  {
+    'xiyaowong/transparent.nvim',
+    lazy = false,
+  }
+
 }
