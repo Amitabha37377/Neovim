@@ -17,7 +17,6 @@ end
 
 require("astronvim.utils").conditional_func(astronvim.user_opts("polish", nil, false), true)
 
-vim.cmd "highlight Normal guibg=NONE"
 
 
 -- Rose Pine colorscheme config
@@ -72,6 +71,8 @@ vim.cmd('colorscheme rose-pine')
 vim.cmd "set wrap"
 vim.cmd "set nornu" --No relative numbering
 vim.cmd "set nocursorline"
+
+vim.cmd "highlight Normal guibg=NONE"
 
 -- Disable LSP semantic highlight
 vim.cmd('highlight LspReferenceRead guibg=NONE')

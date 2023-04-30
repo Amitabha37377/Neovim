@@ -16,6 +16,12 @@ return {
   {
     'xiyaowong/transparent.nvim',
     lazy = false,
-  }
+  },
+
+  --Tagbar Plugin
+  {
+    'preservim/tagbar',
+    lazy = false,
+  },
 
 }
